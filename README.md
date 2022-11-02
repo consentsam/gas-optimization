@@ -24,10 +24,10 @@ The goal of this exercise is to optimize contracts for minimal gas usage. This a
 
 ## Evaluation
 
--   Clone this repo. Use the flag `--recurse-submodules` to clone the repo along with the submodules. You can use the following command after replacing the `CLONE_URL` with the clone url of your repo
+-   Clone this repo. Use the flag `--recurse-submodules` to clone the repo along with the submodules. 
 
     ```
-    git clone --recurse-submodules CLONE_URL
+    git clone --recurse-submodules https://github.com/DappCamp-Assignments/18eafad48d6430a98c013ab7ef75632b450358e0c035ec3288be4f41186a1527/tree/master
     ```
 
 -   Install `forge-std` library using the below command
