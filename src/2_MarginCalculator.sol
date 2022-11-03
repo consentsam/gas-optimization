@@ -6,6 +6,5 @@ contract MarginCalculator {
     function getOwnerMargin(uint256 amount) external pure returns (uint256 amountForSender, uint256 amountForOwner) {
         amountForOwner = (amount * marginPercentage) / 100;
         amountForSender = amount- amountForOwner;
-        return (amountForSender,amountForOwner);
     }
 }
