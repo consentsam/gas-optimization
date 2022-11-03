@@ -10,3 +10,9 @@ out/
 # Dotenv file
 .env
 solutions
+
+
+# Dependencies
+lib/
+gas-snapshots/
+rough/
