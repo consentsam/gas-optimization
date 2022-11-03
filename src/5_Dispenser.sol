@@ -16,8 +16,8 @@ contract Dispenser {
         startTime2 = startTime + 3 days;
     }
     
+    string errorMessage = "Dispense period has not started"; 
     function dispense() external payable{
-        string memory errorMessage = "Dispense period has not started"; 
         require(block.timestamp > startTime2,errorMessage);
 
         uint amount = address(this).balance / 3;

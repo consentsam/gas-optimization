@@ -2,13 +2,13 @@
 pragma solidity 0.8.13;
 
 contract Lock {
-    uint locked;
+    bool internal locked = true;
 
     function isLocked() external view returns (bool) {
-        return locked == 0;
+        return locked;
     }
 
     function unLock() external {
-        locked = 1;
+        locked = false;
     }
 }
